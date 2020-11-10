@@ -74,6 +74,7 @@ public class HttpsClientRequestFactory extends SimpleClientHttpRequestFactory {
  
         // 返回默认启用的密码套件。除非一个列表启用，对SSL连接的握手会使用这些密码套件。
         // 这些默认的服务的最低质量要求保密保护和服务器身份验证
+        // ceshi
         @Override
         public String[] getDefaultCipherSuites() {
             return delegate.getDefaultCipherSuites();
